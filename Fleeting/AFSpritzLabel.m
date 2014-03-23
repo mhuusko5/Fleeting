@@ -55,8 +55,6 @@ typedef enum {
 	_textFont = [UIFont systemFontOfSize:20];
 	_word = [[AFSpritzWords alloc] initWithNextWord:@"Start..."];
 
-	self.layer.cornerRadius = 10;
-	self.layer.masksToBounds = YES;
 	self.backgroundColor = _background;
 }
 
@@ -186,8 +184,8 @@ typedef enum {
 }
 
 - (void)drawMarkingLinesWithOffset:(CGFloat)offset andLength:(CGFloat)length {
-	CGFloat verticalOffset = 4.0f;
-	CGFloat horizontalOffset = 10.0f;
+	CGFloat verticalOffset = 0.0f;
+	CGFloat horizontalOffset = 0.0f;
 
 	[self.markingLinesColor set];
 	[self drawLineInContextWithWidth:1.0f fromPointX:offset fromY:self.frame.size.height - length - verticalOffset toX:offset toY:self.frame.size.height - verticalOffset];

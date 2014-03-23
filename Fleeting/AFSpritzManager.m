@@ -33,7 +33,7 @@
 	if (self) {
 		if (!wpm) {
 			wpm = 250;
-			NSLog(@"AFSpritz message: You need to provide a valid number of words per minute. If not, 250 words per minute will be used by default");
+			//NSLog(@"AFSpritz message: You need to provide a valid number of words per minute. If not, 250 words per minute will be used by default");
 		}
 
 		_status = AFSpritzStatusNotStarted;
@@ -131,7 +131,7 @@
 		[_timer resumeTimer];
 	}
 	else {
-		NSLog(@"AFSpritz message: Reading can only be resumed when is stopped");
+		//NSLog(@"AFSpritz message: Reading can only be resumed when is stopped");
 	}
 }
 
@@ -141,7 +141,7 @@
 		[_timer pauseTimer];
 	}
 	else {
-		NSLog(@"AFSpritz message: Reading can only be paused when the reading is active");
+		//NSLog(@"AFSpritz message: Reading can only be paused when the reading is active");
 	}
 }
 
@@ -150,7 +150,7 @@
 		_current = 0;
 	}
 	else {
-		NSLog(@"AFSpritz message: Reading can only be restarted when it is active");
+		//NSLog(@"AFSpritz message: Reading can only be restarted when it is active");
 	}
 }
 
