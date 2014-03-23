@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0065D73718D662A1004056D8 /* AFSpritzLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0065D72F18D662A1004056D8 /* AFSpritzLabel.h */; };
+		0065D73818D662A1004056D8 /* AFSpritzLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065D73018D662A1004056D8 /* AFSpritzLabel.m */; };
+		0065D73918D662A1004056D8 /* AFSpritzManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0065D73118D662A1004056D8 /* AFSpritzManager.h */; };
+		0065D73A18D662A1004056D8 /* AFSpritzManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065D73218D662A1004056D8 /* AFSpritzManager.m */; };
+		0065D73B18D662A1004056D8 /* AFSpritzWords.h in Headers */ = {isa = PBXBuildFile; fileRef = 0065D73318D662A1004056D8 /* AFSpritzWords.h */; };
+		0065D73C18D662A1004056D8 /* AFSpritzWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065D73418D662A1004056D8 /* AFSpritzWords.m */; };
+		0065D73D18D662A1004056D8 /* NSTimer+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 0065D73518D662A1004056D8 /* NSTimer+Blocks.h */; };
+		0065D73E18D662A1004056D8 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065D73618D662A1004056D8 /* NSTimer+Blocks.m */; };
+		0065D74118D663CF004056D8 /* FleetingController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0065D73F18D663CF004056D8 /* FleetingController.h */; };
+		0065D74218D663CF004056D8 /* FleetingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065D74018D663CF004056D8 /* FleetingController.m */; };
+		0065D74518D6664F004056D8 /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0065D74318D6664F004056D8 /* FXBlurView.h */; };
+		0065D74618D6664F004056D8 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065D74418D6664F004056D8 /* FXBlurView.m */; };
+		00AA196A18D64AD0009D3D62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA196918D64AD0009D3D62 /* Foundation.framework */; };
+		00AA196C18D64AD0009D3D62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA196B18D64AD0009D3D62 /* UIKit.framework */; };
+		00AA197618D64AD0009D3D62 /* Fleeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AA197518D64AD0009D3D62 /* Fleeting.m */; };
+		00CAEBEC18DE1F7900AE0DC7 /* NSTimer+Control.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CAEBEA18DE1F7900AE0DC7 /* NSTimer+Control.h */; };
+		00CAEBED18DE1F7900AE0DC7 /* NSTimer+Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CAEBEB18DE1F7900AE0DC7 /* NSTimer+Control.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0065D72F18D662A1004056D8 /* AFSpritzLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSpritzLabel.h; sourceTree = "<group>"; };
+		0065D73018D662A1004056D8 /* AFSpritzLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSpritzLabel.m; sourceTree = "<group>"; };
+		0065D73118D662A1004056D8 /* AFSpritzManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSpritzManager.h; sourceTree = "<group>"; };
+		0065D73218D662A1004056D8 /* AFSpritzManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSpritzManager.m; sourceTree = "<group>"; };
+		0065D73318D662A1004056D8 /* AFSpritzWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSpritzWords.h; sourceTree = "<group>"; };
+		0065D73418D662A1004056D8 /* AFSpritzWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSpritzWords.m; sourceTree = "<group>"; };
+		0065D73518D662A1004056D8 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		0065D73618D662A1004056D8 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		0065D73F18D663CF004056D8 /* FleetingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FleetingController.h; sourceTree = "<group>"; };
+		0065D74018D663CF004056D8 /* FleetingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FleetingController.m; sourceTree = "<group>"; };
+		0065D74318D6664F004056D8 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		0065D74418D6664F004056D8 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		00AA196918D64AD0009D3D62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00AA196B18D64AD0009D3D62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00AA197118D64AD0009D3D62 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		00AA197318D64AD0009D3D62 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		00AA197418D64AD0009D3D62 /* Fleeting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fleeting-Prefix.pch"; sourceTree = "<group>"; };
+		00AA197518D64AD0009D3D62 /* Fleeting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Fleeting.m; path = ../Fleeting/Fleeting.m; sourceTree = "<group>"; };
+		00CAEBEA18DE1F7900AE0DC7 /* NSTimer+Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Control.h"; sourceTree = "<group>"; };
+		00CAEBEB18DE1F7900AE0DC7 /* NSTimer+Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Control.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00AA196418D64AD0009D3D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AA196A18D64AD0009D3D62 /* Foundation.framework in Frameworks */,
+				00AA196C18D64AD0009D3D62 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0065D72E18D660AE004056D8 /* AFSpritz */ = {
+			isa = PBXGroup;
+			children = (
+				0065D72F18D662A1004056D8 /* AFSpritzLabel.h */,
+				0065D73018D662A1004056D8 /* AFSpritzLabel.m */,
+				0065D73118D662A1004056D8 /* AFSpritzManager.h */,
+				0065D73218D662A1004056D8 /* AFSpritzManager.m */,
+				0065D73318D662A1004056D8 /* AFSpritzWords.h */,
+				0065D73418D662A1004056D8 /* AFSpritzWords.m */,
+				0065D73518D662A1004056D8 /* NSTimer+Blocks.h */,
+				0065D73618D662A1004056D8 /* NSTimer+Blocks.m */,
+				00CAEBEA18DE1F7900AE0DC7 /* NSTimer+Control.h */,
+				00CAEBEB18DE1F7900AE0DC7 /* NSTimer+Control.m */,
+			);
+			name = AFSpritz;
+			sourceTree = "<group>";
+		};
+		00AA195E18D64AD0009D3D62 = {
+			isa = PBXGroup;
+			children = (
+				00AA196D18D64AD0009D3D62 /* Spritzr */,
+				00AA196818D64AD0009D3D62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00AA196818D64AD0009D3D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00AA196918D64AD0009D3D62 /* Foundation.framework */,
+				00AA196B18D64AD0009D3D62 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00AA196D18D64AD0009D3D62 /* Spritzr */ = {
+			isa = PBXGroup;
+			children = (
+				00AA197518D64AD0009D3D62 /* Fleeting.m */,
+				0065D73F18D663CF004056D8 /* FleetingController.h */,
+				0065D74018D663CF004056D8 /* FleetingController.m */,
+				00AA196E18D64AD0009D3D62 /* Package */,
+				00AA197218D64AD0009D3D62 /* Supporting Files */,
+			);
+			name = Spritzr;
+			path = /Users/mhuusko/Documents/Fleeting/Fleeting;
+			sourceTree = "<absolute>";
+		};
+		00AA196E18D64AD0009D3D62 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				00AA196F18D64AD0009D3D62 /* DEBIAN */,
+				00AA197718D64AD0009D3D62 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		00AA196F18D64AD0009D3D62 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				00AA197118D64AD0009D3D62 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		00AA197218D64AD0009D3D62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0065D72E18D660AE004056D8 /* AFSpritz */,
+				0065D74318D6664F004056D8 /* FXBlurView.h */,
+				0065D74418D6664F004056D8 /* FXBlurView.m */,
+				00AA197318D64AD0009D3D62 /* PackageVersion.plist */,
+				00AA197418D64AD0009D3D62 /* Fleeting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00AA197718D64AD0009D3D62 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				00AA197818D64AD0009D3D62 /* ActionMenu */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		00AA197818D64AD0009D3D62 /* ActionMenu */ = {
+			isa = PBXGroup;
+			children = (
+				00AA197918D64AD0009D3D62 /* Plugins */,
+			);
+			name = ActionMenu;
+			sourceTree = "<group>";
+		};
+		00AA197918D64AD0009D3D62 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00AA196518D64AD0009D3D62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0065D73718D662A1004056D8 /* AFSpritzLabel.h in Headers */,
+				0065D73D18D662A1004056D8 /* NSTimer+Blocks.h in Headers */,
+				0065D74118D663CF004056D8 /* FleetingController.h in Headers */,
+				0065D73B18D662A1004056D8 /* AFSpritzWords.h in Headers */,
+				00CAEBEC18DE1F7900AE0DC7 /* NSTimer+Control.h in Headers */,
+				0065D74518D6664F004056D8 /* FXBlurView.h in Headers */,
+				0065D73918D662A1004056D8 /* AFSpritzManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00AA196718D64AD0009D3D62 /* Fleeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00AA197D18D64AD0009D3D62 /* Build configuration list for PBXNativeTarget "Fleeting" */;
+			buildPhases = (
+				00AA196318D64AD0009D3D62 /* Sources */,
+				00AA196418D64AD0009D3D62 /* Frameworks */,
+				00AA196518D64AD0009D3D62 /* Headers */,
+				00AA196618D64AD0009D3D62 /* ShellScript */,
+				0065D74818D67D5A004056D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fleeting;
+			productName = Spritzr;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00AA195F18D64AD0009D3D62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 00AA196218D64AD0009D3D62 /* Build configuration list for PBXProject "Fleeting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00AA195E18D64AD0009D3D62;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00AA196718D64AD0009D3D62 /* Fleeting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0065D74818D67D5A004056D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00AA196618D64AD0009D3D62 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00AA196318D64AD0009D3D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0065D74218D663CF004056D8 /* FleetingController.m in Sources */,
+				0065D73C18D662A1004056D8 /* AFSpritzWords.m in Sources */,
+				00CAEBED18DE1F7900AE0DC7 /* NSTimer+Control.m in Sources */,
+				0065D74618D6664F004056D8 /* FXBlurView.m in Sources */,
+				0065D73A18D662A1004056D8 /* AFSpritzManager.m in Sources */,
+				00AA197618D64AD0009D3D62 /* Fleeting.m in Sources */,
+				0065D73E18D662A1004056D8 /* NSTimer+Blocks.m in Sources */,
+				0065D73818D662A1004056D8 /* AFSpritzLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00AA197B18D64AD0009D3D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		00AA197C18D64AD0009D3D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		00AA197E18D64AD0009D3D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fleeting/Fleeting-Prefix.pch";
+				INSTALL_PATH = /Library/ActionMenu/Plugins;
+				PRODUCT_NAME = Fleeting;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.1.143;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		00AA197F18D64AD0009D3D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fleeting/Fleeting-Prefix.pch";
+				INSTALL_PATH = /Library/ActionMenu/Plugins;
+				PRODUCT_NAME = Fleeting;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.1.143;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00AA196218D64AD0009D3D62 /* Build configuration list for PBXProject "Fleeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00AA197B18D64AD0009D3D62 /* Debug */,
+				00AA197C18D64AD0009D3D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00AA197D18D64AD0009D3D62 /* Build configuration list for PBXNativeTarget "Fleeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00AA197E18D64AD0009D3D62 /* Debug */,
+				00AA197F18D64AD0009D3D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00AA195F18D64AD0009D3D62 /* Project object */;
+}

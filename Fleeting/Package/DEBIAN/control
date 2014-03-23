@@ -1,0 +1,10 @@
+Package: com.mhuusko5.Fleeting
+Name: Fleeting
+Version: 0.9-1
+Description: Read any selected text on your iOS device, quickly, one word at a time.
+Section: Addons (Action Menu)
+Depends: firmware (>= 7.0), actionmenu
+Architecture: iphoneos-arm
+Author: Mathew Huusko V <mhuusko5.seller@gmail.com>
+Homepage: http://mhuusko5.com/
+Maintainer: Mathew Huusko V <mhuusko5.seller@gmail.com>

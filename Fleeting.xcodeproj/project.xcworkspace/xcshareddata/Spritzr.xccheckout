@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D7C654FC-C47A-449F-9DC4-C24CA5FFBE10</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Spritzr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>54F81439-077E-4301-B722-0F699EE27CEF</key>
+		<string>https://github.com/mhuusko5/Fleeting.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Spritzr.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>54F81439-077E-4301-B722-0F699EE27CEF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mhuusko5/Fleeting.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>54F81439-077E-4301-B722-0F699EE27CEF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>54F81439-077E-4301-B722-0F699EE27CEF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fleeting</string>
+		</dict>
+	</array>
+</dict>
+</plist>
