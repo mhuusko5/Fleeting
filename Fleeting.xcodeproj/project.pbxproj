@@ -196,7 +196,7 @@
 			dependencies = (
 			);
 			name = Fleeting;
-			productName = Spritzr;
+			productName = Fleeting;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
