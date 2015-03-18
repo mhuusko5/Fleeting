@@ -1,3 +1,3 @@
-Fleeting
-=====
-Read any selected text on your iOS device, quickly, one word at a time (demo/download at http://mhuusko5.com/#fleeting).
+# Fleeting
+
+Speed read any selected text on your Jailbroken iOS device one word at a time ("Spritzing").
